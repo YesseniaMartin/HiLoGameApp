@@ -8,7 +8,7 @@ public class HiLo {
 		System.out.println("Let's play a guessing game! Pick a number from 1-20,\nYou only get 5 try to guess correctly,\nIf you guess correctly you Win! ");
 		
 		Scanner sc = new Scanner(System.in);
-		int randomNumber = (int) Math.random() * 20 + 1;
+		int randomNumber = (int) Math.random() * (20 + 1);
 		int guess;	
 		int n;
 		boolean keepGoing = true;
@@ -38,10 +38,10 @@ public class HiLo {
 			System.out.println("Would you like to play again?");
 			String answer = sc.next();
 			if (answer.equals("yes")) {
-				randomNumber = (int) Math.random() * 20 + 1;
+				randomNumber = (int) Math.random() * (20 + 1);
 			
 			} else {
-				System.out.println("Thanks for playing. Goodbye");
+				System.out.println("Thanks for playing. Goodbye! ");
 				keepGoing = false;
 			} 
 		}

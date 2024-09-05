@@ -13,8 +13,8 @@ If else statement would be used to meet the condition when the user enters a num
 We would need a boolean to determine if the player would like to play again, and re-enter the for loop again.
 
 ### Lesson Learned# HiLoGameApp
+This project was challenging, had to remind myself to take breaks in between.
 Make sure to follow the user story before moving on to the next story. The code can be confusing if you don't follow each step and finish one first before completing the next story of the program. 
 The user "will" know that we need to enter a numbers unless prompt other wise, this time our user understand and follower directions to the letter, what an amazing user :)
 
 Thank you for playing, have fun!
-
